@@ -55,9 +55,3 @@ JSON
 }
 📜 License
 This project is open-source and available under the MIT License.
-
-Pro-tip for your README
-If you want to make it look even better, you can take a screenshot of your app running, name it screenshot.png, and change the first image tag to:
-![App Screenshot](./screenshot.png)
-
-Now that the documentation is ready, would you like me to show you how to compile this into a single .exe file that you can run without using cargo run?

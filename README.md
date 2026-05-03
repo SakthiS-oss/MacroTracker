@@ -1,58 +1,30 @@
-🍎 Rust Macro Tracker
-A lightweight, high-performance desktop application for tracking daily calories and macronutrients (Protein, Carbs, and Fats). Built with Rust and the egui framework.
+# 🍎 Rust Macro Tracker
 
-✨ Features
-Real-time Tracking: See your remaining calories and macros update instantly as you add food.
+A lightweight, high-performance desktop application for tracking daily calories and macronutrients. Built with **Rust** and the **egui** framework, this app provides a snappy, memory-safe way to manage your nutrition without the bloat of traditional web-based trackers.
 
-Custom Goals: Set specific daily targets for Calories, Protein, Carbohydrates, and Fats.
+---
 
-Persistent Storage: All data is automatically saved to a local data.json file. Your progress and goals are right where you left them when you restart the app.
+## ✨ Features
 
-Clean UI: Simple, distraction-free interface with a scrollable history log and easy "drag-to-edit" values.
+* **Real-time Tracking:** Instant calculations for remaining calories and macros as you log entries.
+* **Custom Goal Setting:** Tailor your daily targets for Calories, Protein, Carbohydrates, and Fats.
+* **Persistent Local Storage:** Your data stays on your machine. All progress is saved automatically to a `data.json` file.
+* **Immediate Mode UI:** Powered by `egui` for a distraction-free, highly responsive interface.
+* **Crash-Free Performance:** Leverages Rust’s ownership model to ensure peak stability and safety.
 
-Safety First: Built with Rust’s memory safety guarantees to ensure a crash-free experience.
+---
 
-🚀 Getting Started
-Prerequisites
-Rust Toolchain: Install from rustup.rs.
+## 🚀 Getting Started
 
-C++ Build Tools (Windows only): Ensure you have the "Desktop development with C++" workload installed via the Visual Studio Installer.
+### Prerequisites
 
-Installation & Running
-Clone or download this repository.
+1.  **Rust Toolchain:** Install the compiler and manager from [rustup.rs](https://rustup.rs/).
+2.  **C++ Build Tools (Windows Users):** You must have the "Desktop development with C++" workload installed via the [Visual Studio Installer](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
-Open a terminal in the project folder.
+### Installation
 
-Run the application:
+Clone the repository and navigate to the directory:
 
-Bash
-cargo run
-🛠️ Tech Stack
-Language: Rust
-
-GUI Framework: eframe/egui (Immediate mode GUI)
-
-Serialization: Serde & Serde JSON
-
-📂 Data Storage
-The app saves your data in a human-readable data.json file in the root directory. It looks like this:
-
-JSON
-{
-  "calorie_goal": 2000,
-  "protein_goal": 150,
-  "carbs_goal": 200,
-  "fat_goal": 70,
-  "history": [
-    {
-      "name": "Chicken Breast",
-      "calories": 165,
-      "protein": 31,
-      "carbs": 0,
-      "fat": 3
-    }
-  ]
-}
-
-📜 License
-This project is open-source and available under the MIT License.
+```bash
+git clone [https://github.com/SakthiS-oss/MacroTracker.git](https://github.com/SakthiS-oss/MacroTracker.git)
+cd MacroTracker/my_project

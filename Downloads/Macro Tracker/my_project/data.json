@@ -1,0 +1,15 @@
+{
+  "calorie_goal": 2000,
+  "protein_goal": 150,
+  "carbs_goal": 200,
+  "fat_goal": 70,
+  "history": [
+    {
+      "name": "Pizza",
+      "calories": 200,
+      "protein": 10,
+      "carbs": 15,
+      "fat": 15
+    }
+  ]
+}
